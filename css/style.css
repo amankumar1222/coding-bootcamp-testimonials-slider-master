@@ -16,6 +16,7 @@ body {
     align-items: center;
     justify-content: center;
     font-family: 'Inter', sans-serif;
+    background: url('/images/pattern-curve.svg') no-repeat bottom -0px left;
 }
 
 .main-container {
@@ -42,7 +43,7 @@ body {
 
 }
 
-.para p {
+.para h2 {
     font-size: 24px;
     color: hsl(240, 38%, 20%);
     font-weight: 300;
@@ -118,7 +119,7 @@ body {
 
 
 /* footer  */
-.attribution {
+footer {
     /* display: none; */
     position: absolute;
     bottom: 10px;
@@ -219,7 +220,7 @@ br {
     }
 
 
-    .para p {
+    .para h2 {
         font-size: 20px;
         padding: 0px 15px;
     }
